@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-r=*3nuuhk_iw2cd7*^h&(*n3h*_$8bjbm@8)fnytkzuq8l8)c$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['8000-ikatahira-cadastroaluno-k8aishw2rlz.ws-us110.gitpod.io']
+                 
 
 # Application definition
 
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'alunos',
 ]
 
 MIDDLEWARE = [
